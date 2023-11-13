@@ -1,0 +1,28 @@
+{
+  "name": "ra-lifecycle-http-crud-backend",
+  "homepage": "https://github.com/RasTado/hw_react_lifecycle-http",
+  "repository": "https://github.com/RasTado/hw_react_lifecycle-http",
+  "version": "1.0.0",
+  "description": "hw_react_lifecycle-http-crud-backend",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "dev": "nodemon index"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "keywords": [],
+  "dependencies": {
+    "faker": "^5.5.3",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
